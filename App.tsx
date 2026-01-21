@@ -1,46 +1,5 @@
 
-import React from 'react';
 
-// Data for the menu items with more attractive Iraqi-flavored descriptions
-const MENU_ITEMS = [
-  {
-    title: 'قيمة نجفية',
-    image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=800&auto=format&fit=crop',
-    description: 'قيمة نجفية معدلة وعلى أصولها، طعم يرجّعك لأيام زمان بكل لقمة.'
-  },
-  {
-    title: 'دجاج على تمن',
-    image: 'https://images.unsplash.com/photo-1567337710282-00832b415979?q=80&w=800&auto=format&fit=crop',
-    description: 'دجاج محمر ومسبك، ينزل على تمن بسمتي نثري بريحة الهيل والزعفران.'
-  },
-  {
-    title: 'ريزو',
-    image: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?q=80&w=800&auto=format&fit=crop',
-    description: 'دجاج مقرمش "كرنشي" مع صوص الريزو الحار والرز المتبل، تجربة تفوق الخيال.'
-  },
-  {
-    title: 'لفات صاج',
-    image: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=800&auto=format&fit=crop',
-    description: 'صاجنا حار ومكسب، محشي بأطيب الخلطات اللي تخليك تطلب الثانية بدون تفكير.'
-  },
-  {
-    title: 'بركر',
-    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop',
-    description: 'بركر لحم عراقي طازج، مشوي على الفحم مع جبنة سايحة وخضروات فريش.'
-  }
-];
-
-const Header: React.FC = () => (
-  <header className="relative bg-stone-900 text-white py-24 px-6 text-center shadow-2xl overflow-hidden">
-    {/* Background Image Overlay for Header */}
-    <div className="absolute inset-0 z-0">
-      <img 
-        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1600&auto=format&fit=crop" 
-        className="w-full h-full object-cover opacity-40"
-        alt="Background"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-orange-900/60 to-stone-900"></div>
-    </div>
     
     <div className="relative z-10 max-w-4xl mx-auto animate-fade-in">
       <h1 className="text-7xl md:text-9xl font-black mb-6 drop-shadow-2xl tracking-tighter">كافتريا العمو</h1>
